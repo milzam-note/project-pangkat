@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="bg-[#F1F4F5]">
 
 
     @yield('content')

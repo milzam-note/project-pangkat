@@ -15,6 +15,14 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
         },
+        // colors: {
+        //     'custom-beige' :'#EBEBD3',
+        //     'custom-body' :'#F1F4F5',
+        //     'custom-yale-blue' : '#083D77',
+        //     'custom-naples-yellow' : '#3F37C9',
+        //     'custom-sandy-brown' : '#EE964B',
+        //     'custom-tomato' : '#F95738',
+        //   },
     },
     plugins: [],
 };
