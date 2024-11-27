@@ -2,7 +2,7 @@
 @section('content')
 
     <div>
-        <nav class="flex flex-row max-w-6xl mx-auto justify-between items-center mt-7">
+        <nav class="flex flex-row max-w-6xl mx-auto justify-between items-center mt-7 pb-3">
             <svg width="185" height="42" viewBox="0 0 185 42" fill="none" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -229,10 +229,72 @@
                     </a>
                 </li>
             </ul>
-            <a href="#" class="text-base bg-[#083D77] text-white hover:bg-gray-950 py-2 px-7 rounded-full font-semibold">Masuk</a>
+            <a href="#"
+                class="text-base bg-[#083D77] text-white hover:bg-gray-950 py-2 px-7 rounded-full font-semibold">Masuk</a>
         </nav>
 
-        <section class="hero max-w-full mx-auto">
-            Next part 2
+        <section class="hero max-w-6xl mx-auto py-12">
+            <div class="flex flex-row items-center justify-between">
+                <div class="flex flex-col gap-y-8">
+                    <div class="w-fit gap-x-2 px-3 py-2 small-badge flex flex-row bg-white rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path
+                                d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75ZM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875V8.625ZM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875v-6.75Z" />
+                        </svg>
+                        <p class="text-base font-semibold text-[#083D77]">
+                            Telah diusulkan sejumlah 123 Usulan Kenaikan Pangkat
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <h1 class="text-[70px] font-bold leading-none text-[#083D77]">
+                            SDM Unggul<br>
+                            Polri Presisi.
+                        </h1>
+                        <p class="text-base leading-loose text-gray-500">
+                            Telah menyelesaikan Usulan Kenaikan Pangkat<br>
+                            PNS Polri dalam pelayanan bidang SDM
+                        </p>
+                    </div>
+                    <div class="flex flex-row">
+                        <div class="flex flex-col">
+                            <a href="#"
+                                class="flex gap-x-2 text-lg bg-[#EE964B] text-white hover:bg-[#EBEBD3] hover:text-gray-950 py-3 px-10 rounded-full font-semibold">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path
+                                        d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75ZM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875V8.625ZM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875v-6.75Z" />
+                                </svg>
+                                Lihat Statistika
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row items-center">
+                    <img src="images/ssdm.png" class="w-[400px]">
+                </div>
+            </div>
+        </section>
+        <section class="partners max-w-6xl mx-auto py-12">
+            <div class="flex flex-row gap-x-10 justify-center items-center">
+                <div>
+                    <a href="https://logospng.org" target="_blank" class="flex flex-row gap-x-2 items-center">
+                        <img src="https://logospng.org/download/laravel/logo-laravel-icon-256.png" class="w-[40px]" alt="Logo Laravel">
+                        <p class="text-lg font-semibold text text-gray-950">Laravel</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.pngwing.com" target="_blank" class="flex flex-row gap-x-2 items-center">
+                        <img src="https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png" class="w-[40px]" alt="Logo Tailwind"/>
+                        <p class="text-lg font-semibold text text-gray-950">Tailwind CSS</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://heroicons.com" target="_blank" class="flex flex-row gap-x-2 items-center">
+                        <svg width="40" height="40" viewBox="0 0 40 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5228 0.30658L21.0144 1.72549C24.7741 5.30204 29.8452 7.49241 35.4302 7.49241C35.5191 7.49241 35.6079 7.49186 35.6966 7.49075L37.2873 7.47091L37.7842 8.98893C38.6033 11.4914 39.0456 14.1632 39.0456 16.9343C39.0456 28.7821 30.9782 38.7318 20.0635 41.5536L19.5228 41.6934L18.9821 41.5536C8.06734 38.7318 0 28.7821 0 16.9343C0 14.1632 0.442247 11.4914 1.26136 8.98893L1.75824 7.47091L3.34898 7.49075C3.43762 7.49186 3.52641 7.49241 3.61533 7.49241C9.20039 7.49241 14.2715 5.30204 18.0312 1.72549L19.5228 0.30658ZM4.96161 11.8148C4.55477 13.4519 4.3384 15.1664 4.3384 16.9343C4.3384 26.5491 10.754 34.664 19.5228 37.1858C28.2916 34.664 34.7072 26.5491 34.7072 16.9343C34.7072 15.1664 34.4908 13.4519 34.084 11.8148C28.5816 11.5248 23.5425 9.46813 19.5228 6.20153C15.5031 9.46813 10.4639 11.5248 4.96161 11.8148Z" fill="#8B5CF6"/>
+                            </svg>
+                        <p class="text-lg font-semibold text text-gray-950">Heroicons</p>
+                    </a>
+                </div>
+            </div>
         </section>
     </div>
