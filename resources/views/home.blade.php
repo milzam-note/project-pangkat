@@ -2,7 +2,7 @@
 @section('content')
 
     <div>
-        <nav class="flex flex-row max-w-6xl mx-auto justify-between items-center mt-7 pb-3">
+        <nav class="flex flex-row max-w-6xl mx-auto justify-between items-center pt-5 pb-3">
             <svg width="185" height="42" viewBox="0 0 185 42" fill="none" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -233,7 +233,7 @@
                 class="text-base bg-[#083D77] text-white hover:bg-gray-950 py-2 px-7 rounded-full font-semibold">Masuk</a>
         </nav>
 
-        <section class="hero max-w-6xl mx-auto py-12">
+        <section class="hero max-w-6xl mx-auto py-10">
             <div class="flex flex-row items-center justify-between">
                 <div class="flex flex-col gap-y-8">
                     <div class="w-fit gap-x-2 px-3 py-2 small-badge flex flex-row bg-white rounded-full">
@@ -273,7 +273,7 @@
                 </div>
             </div>
         </section>
-        <section class="partners max-w-6xl mx-auto py-12">
+        <section class="partners max-w-6xl mx-auto py-10">
             <div class="flex flex-row gap-x-10 justify-center items-center">
                 <div>
                     <a href="https://logospng.org" target="_blank" class="flex flex-row gap-x-2 items-center">
@@ -294,6 +294,81 @@
                             </svg>
                         <p class="text-lg font-semibold text text-gray-950">Heroicons</p>
                     </a>
+                </div>
+            </div>
+        </section>
+        <section class="features max-w-6xl mx-auto py-10 text-center">
+            <h3 class="text-5xl font-semibold mb-8">
+                Our Team
+            </h3>
+            <div class="grid grid-cols-4 gap-x-8">
+                <div class="my-card flex flex-col gap-y-3 bg-white rounded-2xl p-5 items-center">
+                    <img src="images/purnomo.png" alt="Purnomo Sulistyono Prabowo, S.H." class="w-32">
+                    <div class="flex flex-col">
+                        <h3 class="font-bold">
+                            Purnomo Sulistyono Prabowo, S.H.
+                        </h3>
+                        <p>
+                            Pembina Tk I
+                        </p>
+                        <p>
+                            196703071987031001
+                        </p>
+                    </div>
+                    <h3 class="font-semibold">
+                        KASUBBAGKATPNS BAGPANGKAT ROBINKAR SSDM POLRI
+                    </h3>
+                </div>
+                <div class="my-card flex flex-col gap-y-3 bg-white rounded-2xl p-5 items-center">
+                    <img src="images/agus.png" alt="Agus Kusnadi, S.Sos., M.H." class="w-32">
+                    <div class="flex flex-col">
+                        <h3 class="font-bold">
+                            Agus Kusnadi, S.Sos., M.H.
+                        </h3>
+                        <p>
+                            Pembina
+                        </p>
+                        <p>
+                            197108101998031003
+                        </p>
+                    </div>
+                    <h3 class="font-semibold">
+                        PAUR SUBBAGKATPNS BAGPANGKAT ROBINKAR SSDM POLRI
+                    </h3>
+                </div>
+                <div class="my-card flex flex-col gap-y-3 bg-white rounded-2xl p-5 items-center">
+                    <img src="images/ari.png" alt="Ari Widaryanti, S.H." class="w-32">
+                    <div class="flex flex-col">
+                        <h3 class="font-bold">
+                            Ari Widaryanti, S.H.
+                        </h3>
+                        <p>
+                            Penata TK I
+                        </p>
+                        <p>
+                            198010142008012001
+                        </p>
+                    </div>
+                    <h3 class="font-semibold">
+                        PAMIN SUBBAGKATPNS BAGPANGKAT ROBINKAR SSDM POLRI
+                    </h3>
+                </div>
+                <div class="my-card flex flex-col gap-y-3 bg-white rounded-2xl p-5 items-center">
+                    <img src="images/milzam.png" alt="Milzam Dwi Kirana Setiajati, A.Md.Kom." class="w-32">
+                    <div class="flex flex-col">
+                        <h3 class="font-bold">
+                            Milzam Dwi Kirana Setiajati, A.Md.Kom.
+                        </h3>
+                        <p>
+                            Pengatur
+                        </p>
+                        <p>
+                            199904082022021002
+                        </p>
+                    </div>
+                    <h3 class="font-semibold">
+                        BHAYANGKARA ADMINISTRASI PELAKSANA BAGPANGKAT ROBINKAR SSDM POLRI
+                    </h3>
                 </div>
             </div>
         </section>
