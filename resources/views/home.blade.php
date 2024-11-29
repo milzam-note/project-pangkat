@@ -246,7 +246,7 @@
                         </p>
                     </div>
                     <div class="flex flex-col gap-y-2">
-                        <h1 class="text-[70px] font-bold leading-none text-[#083D77]">
+                        <h1 class=" text-7xl font-bold leading-none text-[#083D77]">
                             SDM Unggul<br>
                             Polri Presisi.
                         </h1>
@@ -259,7 +259,8 @@
                         <div class="flex flex-col">
                             <a href="#"
                                 class="flex gap-x-2 text-lg bg-[#EE964B] text-white hover:bg-[#EBEBD3] hover:text-gray-950 py-3 px-10 rounded-full font-semibold">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
                                     <path
                                         d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75ZM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875V8.625ZM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875v-6.75Z" />
                                 </svg>
@@ -273,102 +274,337 @@
                 </div>
             </div>
         </section>
+
         <section class="partners max-w-6xl mx-auto py-10">
             <div class="flex flex-row gap-x-10 justify-center items-center">
                 <div>
                     <a href="https://logospng.org" target="_blank" class="flex flex-row gap-x-2 items-center">
-                        <img src="https://logospng.org/download/laravel/logo-laravel-icon-256.png" class="w-[40px]" alt="Logo Laravel">
+                        <img src="https://logospng.org/download/laravel/logo-laravel-icon-256.png" class="w-[40px]"
+                            alt="Logo Laravel">
                         <p class="text-lg font-semibold text text-gray-950">Laravel</p>
                     </a>
                 </div>
                 <div>
                     <a href="https://www.pngwing.com" target="_blank" class="flex flex-row gap-x-2 items-center">
-                        <img src="https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png" class="w-[40px]" alt="Logo Tailwind"/>
+                        <img src="https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png"
+                            class="w-[40px]" alt="Logo Tailwind" />
                         <p class="text-lg font-semibold text text-gray-950">Tailwind CSS</p>
                     </a>
                 </div>
                 <div>
                     <a href="https://heroicons.com" target="_blank" class="flex flex-row gap-x-2 items-center">
-                        <svg width="40" height="40" viewBox="0 0 40 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5228 0.30658L21.0144 1.72549C24.7741 5.30204 29.8452 7.49241 35.4302 7.49241C35.5191 7.49241 35.6079 7.49186 35.6966 7.49075L37.2873 7.47091L37.7842 8.98893C38.6033 11.4914 39.0456 14.1632 39.0456 16.9343C39.0456 28.7821 30.9782 38.7318 20.0635 41.5536L19.5228 41.6934L18.9821 41.5536C8.06734 38.7318 0 28.7821 0 16.9343C0 14.1632 0.442247 11.4914 1.26136 8.98893L1.75824 7.47091L3.34898 7.49075C3.43762 7.49186 3.52641 7.49241 3.61533 7.49241C9.20039 7.49241 14.2715 5.30204 18.0312 1.72549L19.5228 0.30658ZM4.96161 11.8148C4.55477 13.4519 4.3384 15.1664 4.3384 16.9343C4.3384 26.5491 10.754 34.664 19.5228 37.1858C28.2916 34.664 34.7072 26.5491 34.7072 16.9343C34.7072 15.1664 34.4908 13.4519 34.084 11.8148C28.5816 11.5248 23.5425 9.46813 19.5228 6.20153C15.5031 9.46813 10.4639 11.5248 4.96161 11.8148Z" fill="#8B5CF6"/>
-                            </svg>
+                        <svg width="40" height="40" viewBox="0 0 40 42" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M19.5228 0.30658L21.0144 1.72549C24.7741 5.30204 29.8452 7.49241 35.4302 7.49241C35.5191 7.49241 35.6079 7.49186 35.6966 7.49075L37.2873 7.47091L37.7842 8.98893C38.6033 11.4914 39.0456 14.1632 39.0456 16.9343C39.0456 28.7821 30.9782 38.7318 20.0635 41.5536L19.5228 41.6934L18.9821 41.5536C8.06734 38.7318 0 28.7821 0 16.9343C0 14.1632 0.442247 11.4914 1.26136 8.98893L1.75824 7.47091L3.34898 7.49075C3.43762 7.49186 3.52641 7.49241 3.61533 7.49241C9.20039 7.49241 14.2715 5.30204 18.0312 1.72549L19.5228 0.30658ZM4.96161 11.8148C4.55477 13.4519 4.3384 15.1664 4.3384 16.9343C4.3384 26.5491 10.754 34.664 19.5228 37.1858C28.2916 34.664 34.7072 26.5491 34.7072 16.9343C34.7072 15.1664 34.4908 13.4519 34.084 11.8148C28.5816 11.5248 23.5425 9.46813 19.5228 6.20153C15.5031 9.46813 10.4639 11.5248 4.96161 11.8148Z"
+                                fill="#8B5CF6" />
+                        </svg>
                         <p class="text-lg font-semibold text text-gray-950">Heroicons</p>
                     </a>
                 </div>
             </div>
         </section>
-        <section class="features max-w-6xl mx-auto py-10 text-center">
-            <h3 class="text-5xl font-semibold mb-8">
-                Our Team
+
+        <section class="features max-w-6xl mx-auto py-10 ">
+            <h3 class="text-5xl font-semibold mb-8 text-center">
+                Fitur-fitur Kami
             </h3>
             <div class="grid grid-cols-4 gap-x-8">
-                <div class="my-card flex flex-col gap-y-3 bg-white rounded-2xl p-5 items-center">
-                    <img src="images/purnomo.png" alt="Purnomo Sulistyono Prabowo, S.H." class="w-32">
-                    <div class="flex flex-col">
-                        <h3 class="font-bold">
-                            Purnomo Sulistyono Prabowo, S.H.
+                <div class="my-card flex flex-col gap-y-3 bg-white rounded-2xl p-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="#083D77" class="size-10">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
+                    </svg>
+                    <div class="flex flex-col gap-y-1">
+                        <h3 class="font-bold text-xl">
+                            Data Real-time
                         </h3>
-                        <p>
-                            Pembina Tk I
-                        </p>
-                        <p>
-                            196703071987031001
+                        <p class="text-base">
+                            Data personel yang disediakan akan selalu up-to-date sebelum, saat dan sesudah Periode Kenaikan
+                            Pangkat
                         </p>
                     </div>
-                    <h3 class="font-semibold">
-                        KASUBBAGKATPNS BAGPANGKAT ROBINKAR SSDM POLRI
-                    </h3>
                 </div>
-                <div class="my-card flex flex-col gap-y-3 bg-white rounded-2xl p-5 items-center">
-                    <img src="images/agus.png" alt="Agus Kusnadi, S.Sos., M.H." class="w-32">
-                    <div class="flex flex-col">
-                        <h3 class="font-bold">
-                            Agus Kusnadi, S.Sos., M.H.
+                <div class="my-card flex flex-col gap-y-3 bg-white rounded-2xl p-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="#083D77" class="size-10">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 0 1-1.125-1.125M3.375 19.5h7.5c.621 0 1.125-.504 1.125-1.125m-9.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-7.5A1.125 1.125 0 0 1 12 18.375m9.75-12.75c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125m19.5 0v1.5c0 .621-.504 1.125-1.125 1.125M2.25 5.625v1.5c0 .621.504 1.125 1.125 1.125m0 0h17.25m-17.25 0h7.5c.621 0 1.125.504 1.125 1.125M3.375 8.25c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m17.25-3.75h-7.5c-.621 0-1.125.504-1.125 1.125m8.625-1.125c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M12 10.875v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125M13.125 12h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125M20.625 12c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5M12 14.625v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 14.625c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m0 1.5v-1.5m0 0c0-.621.504-1.125 1.125-1.125m0 0h7.5" />
+                    </svg>
+                    <div class="flex flex-col gap-y-1">
+                        <h3 class="font-bold text-xl">
+                            Rekomendasi Usulan
                         </h3>
-                        <p>
-                            Pembina
-                        </p>
-                        <p>
-                            197108101998031003
+                        <p class="text-base">
+                            Menyaring data personel yang sudah bisa diusulkan Kenaikan Pangkat.
                         </p>
                     </div>
-                    <h3 class="font-semibold">
-                        PAUR SUBBAGKATPNS BAGPANGKAT ROBINKAR SSDM POLRI
-                    </h3>
                 </div>
-                <div class="my-card flex flex-col gap-y-3 bg-white rounded-2xl p-5 items-center">
-                    <img src="images/ari.png" alt="Ari Widaryanti, S.H." class="w-32">
-                    <div class="flex flex-col">
-                        <h3 class="font-bold">
-                            Ari Widaryanti, S.H.
-                        </h3>
-                        <p>
-                            Penata TK I
-                        </p>
-                        <p>
-                            198010142008012001
-                        </p>
+                <div class=" relative my-card flex flex-col gap-y-3 bg-gray-900 rounded-2xl p-7">
+                    <div class="absolute top-5 right-8">
+                        <svg width="178" height="221" viewBox="0 0 178 221" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_f_1_371)">
+                                <ellipse cx="97.65" cy="102.527" rx="32.0478" ry="76.7916"
+                                    transform="rotate(30 97.65 102.527)" fill="#424560" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_f_1_371" x="0.27005" y="-15.8951" width="194.76" height="236.845"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                        result="shape" />
+                                    <feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_1_371" />
+                                </filter>
+                            </defs>
+                        </svg>
                     </div>
-                    <h3 class="font-semibold">
-                        PAMIN SUBBAGKATPNS BAGPANGKAT ROBINKAR SSDM POLRI
-                    </h3>
+                    <div class="z-10 flex flex-col gap-y-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="#FFF" class="size-10">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
+                        </svg>
+                        <div class="flex flex-col gap-y-1">
+                            <h3 class="font-bold text-xl text-white">
+                                Cek Data Periodisasi
+                            </h3>
+                            <p class="text-base text-gray-300">
+                                Menampilkan sebuah data personel pada saat periodisasi Kenaikan Pangkat.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="my-card flex flex-col gap-y-3 bg-white rounded-2xl p-5 items-center">
-                    <img src="images/milzam.png" alt="Milzam Dwi Kirana Setiajati, A.Md.Kom." class="w-32">
-                    <div class="flex flex-col">
-                        <h3 class="font-bold">
-                            Milzam Dwi Kirana Setiajati, A.Md.Kom.
+                <div class="my-card flex flex-col gap-y-3 bg-white rounded-2xl p-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="#083D77" class="size-10">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 0 1-.659 1.591l-5.432 5.432a2.25 2.25 0 0 0-.659 1.591v2.927a2.25 2.25 0 0 1-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 0 0-.659-1.591L3.659 7.409A2.25 2.25 0 0 1 3 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0 1 12 3Z" />
+                    </svg>
+                    <div class="flex flex-col gap-y-1">
+                        <h3 class="font-bold text-xl">
+                            Filterisasi Personel
                         </h3>
-                        <p>
-                            Pengatur
-                        </p>
-                        <p>
-                            199904082022021002
+                        <p class="text-base">
+                            Menyaring data personel melalui Pangkat, Satker, Nama dan sebaginya.
                         </p>
                     </div>
-                    <h3 class="font-semibold">
-                        BHAYANGKARA ADMINISTRASI PELAKSANA BAGPANGKAT ROBINKAR SSDM POLRI
+                </div>
+            </div>
+        </section>
+
+        <section class="statistic max-w-6xl mx-auto py-10 px-16">
+            <div class="flex flex-row items-center justify-between">
+                <div class="flex flex-row items-center">
+                    <img src="images/ssdm.png" class="w-[400px]">
+                </div>
+                <div class="flex flex-col gap-y-8">
+                    <div class="flex flex-col gap-y-2">
+                        <h1 class=" text-5xl font-bold leading-tight text-[#083D77]">
+                            Kami Memiliki Statistika<br>
+                            yang Akurat dan Stabil
+                        </h1>
+                        <p class="text-base leading-loose text-gray-500">
+                            Data yang digunakan disesuaikan dengan<br>
+                            Aplikasi dari Polri dan BKN
+                        </p>
+                    </div>
+                    <div class="card-statistic flex flex-col gap-y-3">
+                        <div class="flex flex-row gap-x-3 bg-white rounded-2xl px-5 py-6 items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#083D77" class="size-10">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>
+
+                            <div class="flex flex-col">
+                                <h3 class="font-bold text-xl">
+                                    123,456
+                                </h3>
+                                <p class="text-base">
+                                    Personel PNS Polri
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-statistic flex flex-row gap-x-3 bg-white rounded-2xl px-5 py-6 items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#083D77" class="size-10">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
+                            </svg>
+
+                            <div class="flex flex-col">
+                                <h3 class="font-bold text-xl">
+                                    312
+                                </h3>
+                                <p class="text-base">
+                                    Jumlah Usulan Periode Saat Ini
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row">
+                        <div class="flex flex-col">
+                            <a href="#"
+                                class="flex gap-x-2 text-lg bg-[#EE964B] text-white hover:bg-[#EBEBD3] hover:text-gray-950 py-3 px-10 rounded-full font-semibold">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                                </svg>
+                                Lihat Data Personel
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="regulation mx-auto py-12">
+            <div class="flex flex-col gap-y-8">
+                <div class="flex flex-col gap-y-2 text-center">
+                    <h3 class="text-5xl font-semibold">
+                        Peraturan
                     </h3>
+                    <p class="text-base leading-loose text-gray-500">
+                        Peraturan dan Undang-undang yang berkaitan dengan<br>
+                        Kenaikan Pangkat PNS Polri
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-x-10 justify-center">
+                    <div class="flex flex-col gap-y-3 items-center">
+                        <div class="group relative">
+                            <div
+                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-75">
+                                <a href=""
+                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-75 hover:bg-gray-950">
+                                    View Details
+                                </a>
+                            </div>
+                            <img src="images/ssdm.png" alt=""
+                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-75">
+                        </div>
+                        <p class="text-base">
+                            Peraturan 1
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-y-3 items-center">
+                        <div class="group relative">
+                            <div
+                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-75">
+                                <a href=""
+                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-75 hover:bg-gray-950">
+                                    View Details
+                                </a>
+                            </div>
+                            <img src="images/ssdm.png" alt=""
+                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-75">
+                        </div>
+                        <p class="text-base">
+                            Peraturan 2
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-y-3 items-center">
+                        <div class="group relative">
+                            <div
+                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-75">
+                                <a href=""
+                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-75 hover:bg-gray-950">
+                                    View Details
+                                </a>
+                            </div>
+                            <img src="images/ssdm.png" alt=""
+                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-75">
+                        </div>
+                        <p class="text-base">
+                            Peraturan 3
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-y-3 items-center">
+                        <div class="group relative">
+                            <div
+                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-75">
+                                <a href=""
+                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-75 hover:bg-gray-950">
+                                    View Details
+                                </a>
+                            </div>
+                            <img src="images/ssdm.png" alt=""
+                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-75">
+                        </div>
+                        <p class="text-base">
+                            Peraturan 4
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq-wrapper max-w-6xl mx-auto py-12">
+            <h3 class=" text-5xl font-semibold text-center mb-8">
+                Pertanyaan-pertanyaan
+            </h3>
+            <div class="grid grid-cols-2 gap-x-8">
+                <div class="parent-cards-faq flex flex-col gap-y-6">
+                    <div class="flex flex-row card-faq bg-white rounded-2xl p-5">
+                        <div class="flex flex-col gap-y-5">
+                            <h3 class="font-bold text-xl text-gray-950">
+                                SKP yang diperlukan tahun Berapa?
+                            </h3>
+                            <p class="text-base leading-tight text-gray-700">
+                                Jika Periodisasi UKP PNS Polri tahun 2025, maka untuk SKP yang diperlukan yaitu tahun 2024
+                                dan 2023.
+                            </p>
+                            <a href="#" class="text-[#083D77] font-semibold">
+                                Learn More
+                            </a>
+                        </div>
+                        <a href="" class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#FFF" class="size-6 bg-gray-950 rounded-full">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="parent-cards-faq flex flex-col gap-y-6">
+                    <div class="flex flex-row gap-x-6 card-faq bg-white rounded-2xl p-5">
+                        <div class="flex flex-col gap-y-5">
+                            <h3 class="font-bold text-xl text-gray-950">
+                                SKP yang diperlukan tahun Berapa?
+                            </h3>
+                            <p class="text-base leading-tight text-gray-700">
+                                Jika Periodisasi UKP PNS Polri tahun 2025, maka untuk SKP yang diperlukan yaitu tahun 2024
+                                dan 2023.
+                            </p>
+                            <a href="#" class="text-[#083D77] font-semibold">
+                                Learn More
+                            </a>
+                        </div>
+                        <a href="" class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#FFF" class="size-6 bg-gray-950 rounded-full">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="flex flex-row gap-x-6 card-faq bg-[#EE964B] rounded-2xl p-5 items-center justify-between">
+                        <div class="flex flex-row gap-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#FFF" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                            </svg>
+                            <a href="#" class="text-white text-base">
+                                Melalui Whatsapp jika ada pertanyaan lain
+                            </a>
+                        </div>
+                        <a href="#" class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#EE964B" class="size-6 bg-white rounded-full">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
