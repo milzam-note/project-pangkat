@@ -237,7 +237,7 @@
             <div class="flex flex-row items-center justify-between">
                 <div class="flex flex-col gap-y-8">
                     <div class="w-fit gap-x-2 px-3 py-2 small-badge flex flex-row bg-white rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#083D77" class="size-6">
                             <path
                                 d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75ZM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875V8.625ZM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875v-6.75Z" />
                         </svg>
@@ -342,7 +342,7 @@
                     </div>
                 </div>
                 <div class=" relative my-card flex flex-col gap-y-3 bg-gray-900 rounded-2xl p-7">
-                    <div class="absolute top-5 right-8">
+                    <div class="absolute top-5 right-6">
                         <svg width="178" height="221" viewBox="0 0 178 221" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <g filter="url(#filter0_f_1_371)">
@@ -417,7 +417,6 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
                             </svg>
-
                             <div class="flex flex-col">
                                 <h3 class="font-bold text-xl">
                                     123,456
@@ -433,7 +432,6 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
                             </svg>
-
                             <div class="flex flex-col">
                                 <h3 class="font-bold text-xl">
                                     312
@@ -475,14 +473,14 @@
                     <div class="flex flex-col gap-y-3 items-center">
                         <div class="group relative">
                             <div
-                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-75">
-                                <a href=""
-                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-75 hover:bg-gray-950">
+                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-100">
+                                <a href="#"
+                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-100 hover:bg-gray-950">
                                     View Details
                                 </a>
                             </div>
                             <img src="images/ssdm.png" alt=""
-                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-75">
+                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-100">
                         </div>
                         <p class="text-base">
                             Peraturan 1
@@ -491,14 +489,14 @@
                     <div class="flex flex-col gap-y-3 items-center">
                         <div class="group relative">
                             <div
-                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-75">
-                                <a href=""
-                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-75 hover:bg-gray-950">
+                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-100">
+                                <a href="#"
+                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-100 hover:bg-gray-950">
                                     View Details
                                 </a>
                             </div>
                             <img src="images/ssdm.png" alt=""
-                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-75">
+                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-100">
                         </div>
                         <p class="text-base">
                             Peraturan 2
@@ -507,14 +505,14 @@
                     <div class="flex flex-col gap-y-3 items-center">
                         <div class="group relative">
                             <div
-                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-75">
-                                <a href=""
-                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-75 hover:bg-gray-950">
+                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-100">
+                                <a href="#"
+                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-100 hover:bg-gray-950">
                                     View Details
                                 </a>
                             </div>
                             <img src="images/ssdm.png" alt=""
-                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-75">
+                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-100">
                         </div>
                         <p class="text-base">
                             Peraturan 3
@@ -523,14 +521,14 @@
                     <div class="flex flex-col gap-y-3 items-center">
                         <div class="group relative">
                             <div
-                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-75">
-                                <a href=""
-                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-75 hover:bg-gray-950">
+                                class="absolute justify-center w-full bottom-8 flex opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-100">
+                                <a href="#"
+                                    class="bg-[#083D77] text-white px-7 py-3 rounded-full shadow-2xl shadow-[#083D77] font-semibold transition-all ease-in-out duration-100 hover:bg-gray-950">
                                     View Details
                                 </a>
                             </div>
                             <img src="images/ssdm.png" alt=""
-                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-75">
+                                class="w-[320px] h-[220px] bg-white rounded-2xl group-hover:border-4 border-[#083D77] transition-all ease-in-out duration-100">
                         </div>
                         <p class="text-base">
                             Peraturan 4
@@ -587,7 +585,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="flex flex-row gap-x-6 card-faq bg-[#EE964B] rounded-2xl p-5 items-center justify-between">
+                    <div class="flex flex-row gap-x-6 card-faq bg-gray-950 rounded-2xl p-5 items-center justify-between">
                         <div class="flex flex-row gap-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke-width="1.5" stroke="#FFF" class="size-6">
@@ -606,6 +604,474 @@
                         </a>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="closing max-w-6xl mx-auto bg-[#EE964B] p-14 rounded-3xl z-20 relative">
+            <div class="grid grid-cols-2 gap-x-10 items-center">
+                <div class="flex flex-col gap-y-8">
+                    <div class="w-fit gap-x-2 px-3 py-2 small-badge flex flex-row bg-white rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0f0f0f" class="size-6">
+                            <path
+                                d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75ZM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875V8.625ZM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875v-6.75Z" />
+                        </svg>
+                        <p class="text-base font-semibold text-gray-950">
+                            Telah diusulkan sejumlah 123 Usulan Kenaikan Pangkat
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-y-2">
+                        <h1 class=" text-5xl font-bold text-white">
+                            Mulai Peningkatan Hari Ini
+                        </h1>
+                        <p class="text-base leading-loose text-white">
+                            Telah menyelesaikan Usulan Kenaikan Pangkat<br>
+                            PNS Polri dalam pelayanan bidang SDM
+                        </p>
+                    </div>
+                    <div class="flex flex-row">
+                        <div class="flex flex-col">
+                            <a href="#"
+                                class="flex gap-x-2 text-lg bg-[#083D77] text-white hover:bg-[#EBEBD3] hover:text-gray-950 py-3 px-10 rounded-full font-semibold">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path
+                                        d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75ZM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875V8.625ZM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875v-6.75Z" />
+                                </svg>
+                                Lihat Statistika
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-x-5 gap-y-5">
+                    <div
+                        class="h-[172px] relative group hover:bg-gray-950 closing-card-feature flex flex-col gap-y-4 items-center justify-center bg-white p-5 rounded-2xl transition-all ease-in-out duration-100">
+                        <div
+                            class="absolute top-1 right-3 group-hover:block hidden transition-all ease-in-out duration-100">
+                            <svg width="92" height="126" viewBox="0 0 92 126" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_f_11_2611)">
+                                    <ellipse cx="45.9017" cy="62.9834" rx="8.84722" ry="48.5082"
+                                        transform="rotate(30 45.9017 62.9834)" fill="#424560" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_11_2611" x="0.459412" y="0.738525" width="90.8846"
+                                        height="124.49" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_11_2611" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div
+                            class="z-10 flex flex-col gap-y-4 items-center justify-center transition-all ease-in-out duration-100">
+                            {{-- ganti dari sini --}}
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#083D77" class="size-10 group-hover:stroke-white">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
+                            </svg>
+                            <div class="flex flex-col items-center">
+                                <h3 class="group-hover:text-white font-bold text-xl text-gray-950">
+                                    Real-time
+                                </h3>
+                                <a href="#" class="group-hover:block hidden text-base text-gray-500">Learn
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="h-[172px] relative group hover:bg-gray-950 closing-card-feature flex flex-col gap-y-4 items-center justify-center bg-white p-5 rounded-2xl transition-all ease-in-out duration-100">
+                        <div
+                            class="absolute top-1 right-3 group-hover:block hidden transition-all ease-in-out duration-100">
+                            <svg width="92" height="126" viewBox="0 0 92 126" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_f_11_2611)">
+                                    <ellipse cx="45.9017" cy="62.9834" rx="8.84722" ry="48.5082"
+                                        transform="rotate(30 45.9017 62.9834)" fill="#424560" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_11_2611" x="0.459412" y="0.738525" width="90.8846"
+                                        height="124.49" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_11_2611" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div
+                            class="z-10 flex flex-col gap-y-4 items-center justify-center transition-all ease-in-out duration-100">
+                            {{-- ganti dari sini --}}
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#083D77" class="size-10 group-hover:stroke-white">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 0 1-1.125-1.125M3.375 19.5h7.5c.621 0 1.125-.504 1.125-1.125m-9.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-7.5A1.125 1.125 0 0 1 12 18.375m9.75-12.75c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125m19.5 0v1.5c0 .621-.504 1.125-1.125 1.125M2.25 5.625v1.5c0 .621.504 1.125 1.125 1.125m0 0h17.25m-17.25 0h7.5c.621 0 1.125.504 1.125 1.125M3.375 8.25c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m17.25-3.75h-7.5c-.621 0-1.125.504-1.125 1.125m8.625-1.125c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M12 10.875v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125M13.125 12h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125M20.625 12c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5M12 14.625v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 14.625c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m0 1.5v-1.5m0 0c0-.621.504-1.125 1.125-1.125m0 0h7.5" />
+                            </svg>
+                            <div class="flex flex-col items-center">
+                                <h3 class="group-hover:text-white font-bold text-xl text-gray-950">
+                                    Rekomendasi
+                                </h3>
+                                <a href="#" class="group-hover:block hidden text-base text-gray-500">Learn
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="h-[172px] relative group hover:bg-gray-950 closing-card-feature flex flex-col gap-y-4 items-center justify-center bg-white p-5 rounded-2xl transition-all ease-in-out duration-100">
+                        <div
+                            class="absolute top-1 right-3 group-hover:block hidden transition-all ease-in-out duration-100">
+                            <svg width="92" height="126" viewBox="0 0 92 126" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_f_11_2611)">
+                                    <ellipse cx="45.9017" cy="62.9834" rx="8.84722" ry="48.5082"
+                                        transform="rotate(30 45.9017 62.9834)" fill="#424560" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_11_2611" x="0.459412" y="0.738525" width="90.8846"
+                                        height="124.49" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_11_2611" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div
+                            class="z-10 flex flex-col gap-y-4 items-center justify-center transition-all ease-in-out duration-100">
+                            {{-- ganti dari sini --}}
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#083D77" class="size-10 group-hover:stroke-white">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
+                            </svg>
+                            <div class="flex flex-col items-center">
+                                <h3 class="group-hover:text-white font-bold text-xl text-gray-950">
+                                    Forecasting
+                                </h3>
+                                <a href="#" class="group-hover:block hidden text-base text-gray-500">Learn
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="h-[172px] relative group hover:bg-gray-950 closing-card-feature flex flex-col gap-y-4 items-center justify-center bg-white p-5 rounded-2xl transition-all ease-in-out duration-100">
+                        <div
+                            class="absolute top-1 right-3 group-hover:block hidden transition-all ease-in-out duration-100">
+                            <svg width="92" height="126" viewBox="0 0 92 126" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_f_11_2611)">
+                                    <ellipse cx="45.9017" cy="62.9834" rx="8.84722" ry="48.5082"
+                                        transform="rotate(30 45.9017 62.9834)" fill="#424560" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_11_2611" x="0.459412" y="0.738525" width="90.8846"
+                                        height="124.49" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_11_2611" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div
+                            class="z-10 flex flex-col gap-y-4 items-center justify-center transition-all ease-in-out duration-100">
+                            {{-- ganti dari sini --}}
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#083D77" class="size-10 group-hover:stroke-white">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 0 1-.659 1.591l-5.432 5.432a2.25 2.25 0 0 0-.659 1.591v2.927a2.25 2.25 0 0 1-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 0 0-.659-1.591L3.659 7.409A2.25 2.25 0 0 1 3 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0 1 12 3Z" />
+                            </svg>
+                            <div class="flex flex-col items-center">
+                                <h3 class="group-hover:text-white font-bold text-xl text-gray-950">
+                                    Filterisasi
+                                </h3>
+                                <a href="#" class="group-hover:block hidden text-base text-gray-500">Learn
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="h-[172px] relative group hover:bg-gray-950 closing-card-feature flex flex-col gap-y-4 items-center justify-center bg-white p-5 rounded-2xl transition-all ease-in-out duration-100">
+                        <div
+                            class="absolute top-1 right-3 group-hover:block hidden transition-all ease-in-out duration-100">
+                            <svg width="92" height="126" viewBox="0 0 92 126" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_f_11_2611)">
+                                    <ellipse cx="45.9017" cy="62.9834" rx="8.84722" ry="48.5082"
+                                        transform="rotate(30 45.9017 62.9834)" fill="#424560" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_11_2611" x="0.459412" y="0.738525" width="90.8846"
+                                        height="124.49" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_11_2611" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div
+                            class="z-10 flex flex-col gap-y-4 items-center justify-center transition-all ease-in-out duration-100">
+                            {{-- ganti dari sini --}}
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#083D77" class="size-10 group-hover:stroke-white">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>
+                            <div class="flex flex-col items-center">
+                                <h3 class="group-hover:text-white font-bold text-xl text-gray-950">
+                                    Personel
+                                </h3>
+                                <a href="#" class="group-hover:block hidden text-base text-gray-500">Learn
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="h-[172px] relative group hover:bg-gray-950 closing-card-feature flex flex-col gap-y-4 items-center justify-center bg-white p-5 rounded-2xl transition-all ease-in-out duration-100">
+                        <div
+                            class="absolute top-1 right-3 group-hover:block hidden transition-all ease-in-out duration-100">
+                            <svg width="92" height="126" viewBox="0 0 92 126" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_f_11_2611)">
+                                    <ellipse cx="45.9017" cy="62.9834" rx="8.84722" ry="48.5082"
+                                        transform="rotate(30 45.9017 62.9834)" fill="#424560" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_11_2611" x="0.459412" y="0.738525" width="90.8846"
+                                        height="124.49" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_11_2611" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div
+                            class="z-10 flex flex-col gap-y-4 items-center justify-center transition-all ease-in-out duration-100">
+                            {{-- ganti dari sini --}}
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="#083D77" class="size-10 group-hover:stroke-white">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
+                            </svg>
+                            <div class="flex flex-col items-center">
+                                <h3 class="group-hover:text-white font-bold text-xl text-gray-950">
+                                    Spesifik
+                                </h3>
+                                <a href="#" class="group-hover:block hidden text-base text-gray-500">Learn
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer w-screen -mt-[230px] bg-[#083D77] -z-10">
+            <div class="max-w-6xl mx-auto py-10 grid grid-cols-5 pt-[300px] gap-x-10">
+                <div class="company flex flex-col col-span-2 gap-y-7">
+                    <svg width="175" height="42" viewBox="0 0 175 42" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M22.0246 33.1115C22.0606 29.4401 21.1298 26.4545 19.9458 26.4429C18.7617 26.4314 17.7727 29.3983 17.7369 33.0696C17.701 36.7411 18.6318 39.7267 19.8158 39.7383C20.9998 39.7499 21.9888 36.783 22.0246 33.1115Z"
+                            fill="#640EF1" />
+                        <path
+                            d="M15.1576 32.2777C17.1728 29.2086 18.0041 26.1937 17.0144 25.5438C16.0245 24.8939 13.5884 26.855 11.5732 29.9241C9.55797 32.9933 8.72669 36.0081 9.71645 36.6581C10.7063 37.308 13.1423 35.3469 15.1576 32.2777Z"
+                            fill="#640EF1" />
+                        <path
+                            d="M9.82334 27.8744C13.1781 26.3822 15.5074 24.2955 15.0261 23.2136C14.5449 22.1316 11.4353 22.4643 8.08062 23.9565C4.72593 25.4487 2.39655 27.5354 2.87779 28.6173C3.35902 29.6992 6.46865 29.3666 9.82334 27.8744Z"
+                            fill="#640EF1" />
+                        <path
+                            d="M14.6235 20.1795C14.8037 19.0092 12.0079 17.6076 8.37911 17.0491C4.75022 16.4905 1.66243 16.9865 1.4823 18.1568C1.30217 19.3272 4.09791 20.7286 7.72678 21.2872C11.3556 21.8457 14.4434 21.3497 14.6235 20.1795Z"
+                            fill="#640EF1" />
+                        <path
+                            d="M15.9264 17.3917C16.7106 16.5045 15.116 13.8142 12.3649 11.3827C9.61375 8.9513 6.74784 7.6995 5.9637 8.58674C5.17956 9.47401 6.77412 12.1643 9.52527 14.5958C12.2764 17.0272 15.1423 18.279 15.9264 17.3917Z"
+                            fill="#640EF1" />
+                        <path
+                            d="M18.5211 15.7623C19.6605 15.4399 19.7737 12.3146 18.774 8.7817C17.7743 5.24883 16.0402 2.64624 14.9009 2.96865C13.7615 3.29106 13.6483 6.41637 14.648 9.94927C15.6477 13.4821 17.3818 16.0847 18.5211 15.7623Z"
+                            fill="#640EF1" />
+                        <path
+                            d="M25.5667 10.0592C26.6359 6.54673 26.5844 3.41979 25.4516 3.07498C24.3188 2.73017 22.5338 5.29805 21.4646 8.81053C20.3954 12.323 20.447 15.4499 21.5798 15.7947C22.7126 16.1395 24.4976 13.5717 25.5667 10.0592Z"
+                            fill="#640EF1" />
+                        <path
+                            d="M30.6011 14.8053C33.3993 12.4281 35.0462 9.76948 34.2795 8.8671C33.5128 7.9647 30.623 9.16028 27.8249 11.5374C25.0267 13.9146 23.3799 16.5732 24.1466 17.4756C24.9132 18.378 27.8031 17.1825 30.6011 14.8053Z"
+                            fill="#640EF1" />
+                        <path
+                            d="M32.2658 21.5215C35.905 21.0347 38.7278 19.6886 38.5707 18.5149C38.4138 17.3413 35.3363 16.7846 31.6971 17.2714C28.058 17.7583 25.2351 19.1043 25.3922 20.278C25.5492 21.4516 28.6266 22.0084 32.2658 21.5215Z"
+                            fill="#640EF1" />
+                        <path
+                            d="M36.9603 28.9528C37.4628 27.8806 35.175 25.7484 31.8504 24.1903C28.5258 22.6322 25.4234 22.2384 24.9209 23.3105C24.4184 24.3828 26.7062 26.515 30.0308 28.0731C33.3554 29.6311 36.4579 30.025 36.9603 28.9528Z"
+                            fill="#640EF1" />
+                        <path
+                            d="M29.9671 36.864C30.9695 36.2338 30.1978 33.203 28.2435 30.0948C26.2892 26.9866 23.8922 24.9778 22.8898 25.6081C21.8874 26.2383 22.6591 29.269 24.6134 32.3773C26.5678 35.4855 28.9647 37.4943 29.9671 36.864Z"
+                            fill="#640EF1" />
+                        <path
+                            d="M70.5 15.376L66.496 31H61.148L58.32 20.528L55.464 31H50.116L46.112 15.376H50.9L52.972 26.632L55.884 15.376H60.98L63.976 26.66L66.048 15.376H70.5ZM87.074 22.768C87.074 23.16 87.0274 23.5893 86.934 24.056H76.098C76.154 25.232 76.4527 26.0813 76.994 26.604C77.5354 27.108 78.226 27.36 79.066 27.36C79.7754 27.36 80.3634 27.1827 80.83 26.828C81.2967 26.4733 81.6047 26.016 81.754 25.456H86.822C86.6167 26.5573 86.1687 27.5467 85.478 28.424C84.7874 29.2827 83.91 29.964 82.846 30.468C81.782 30.9533 80.5967 31.196 79.29 31.196C77.7594 31.196 76.3967 30.8787 75.202 30.244C74.026 29.5907 73.102 28.6573 72.43 27.444C71.758 26.2307 71.422 24.812 71.422 23.188C71.422 21.5453 71.7487 20.1267 72.402 18.932C73.074 17.7187 74.0074 16.7947 75.202 16.16C76.3967 15.5067 77.7594 15.18 79.29 15.18C80.8394 15.18 82.202 15.4973 83.378 16.132C84.554 16.7667 85.4594 17.6627 86.094 18.82C86.7474 19.9587 87.074 21.2747 87.074 22.768ZM82.23 22.04C82.2487 21.0133 81.9687 20.248 81.39 19.744C80.83 19.2213 80.13 18.96 79.29 18.96C78.4127 18.96 77.6847 19.2213 77.106 19.744C76.5274 20.2667 76.2007 21.032 76.126 22.04H82.23ZM95.254 15.18C97.2326 15.18 98.81 15.6747 99.986 16.664C101.181 17.6533 101.927 18.96 102.226 20.584H97.746C97.6153 19.9493 97.3166 19.4547 96.85 19.1C96.402 18.7267 95.8326 18.54 95.142 18.54C94.6006 18.54 94.19 18.6613 93.91 18.904C93.63 19.128 93.49 19.4547 93.49 19.884C93.49 20.3693 93.742 20.7333 94.246 20.976C94.7686 21.2187 95.5806 21.4613 96.682 21.704C97.8766 21.984 98.8566 22.2733 99.622 22.572C100.387 22.852 101.05 23.3187 101.61 23.972C102.17 24.6253 102.45 25.5027 102.45 26.604C102.45 27.5 102.207 28.2933 101.722 28.984C101.237 29.6747 100.537 30.216 99.622 30.608C98.7073 31 97.6246 31.196 96.374 31.196C94.2646 31.196 92.5753 30.7293 91.306 29.796C90.0366 28.8627 89.262 27.528 88.982 25.792H93.602C93.6766 26.464 93.9566 26.9773 94.442 27.332C94.946 27.6867 95.59 27.864 96.374 27.864C96.9153 27.864 97.326 27.7427 97.606 27.5C97.886 27.2387 98.026 26.9027 98.026 26.492C98.026 25.9507 97.7646 25.568 97.242 25.344C96.738 25.1013 95.9073 24.8493 94.75 24.588C93.5926 24.3453 92.6406 24.084 91.894 23.804C91.1473 23.524 90.5033 23.076 89.962 22.46C89.4206 21.8253 89.15 20.9667 89.15 19.884C89.15 18.484 89.682 17.3547 90.746 16.496C91.81 15.6187 93.3126 15.18 95.254 15.18ZM119.941 22.768C119.941 23.16 119.895 23.5893 119.801 24.056H108.965C109.021 25.232 109.32 26.0813 109.861 26.604C110.403 27.108 111.093 27.36 111.933 27.36C112.643 27.36 113.231 27.1827 113.697 26.828C114.164 26.4733 114.472 26.016 114.621 25.456H119.689C119.484 26.5573 119.036 27.5467 118.345 28.424C117.655 29.2827 116.777 29.964 115.713 30.468C114.649 30.9533 113.464 31.196 112.157 31.196C110.627 31.196 109.264 30.8787 108.069 30.244C106.893 29.5907 105.969 28.6573 105.297 27.444C104.625 26.2307 104.289 24.812 104.289 23.188C104.289 21.5453 104.616 20.1267 105.269 18.932C105.941 17.7187 106.875 16.7947 108.069 16.16C109.264 15.5067 110.627 15.18 112.157 15.18C113.707 15.18 115.069 15.4973 116.245 16.132C117.421 16.7667 118.327 17.6627 118.961 18.82C119.615 19.9587 119.941 21.2747 119.941 22.768ZM115.097 22.04C115.116 21.0133 114.836 20.248 114.257 19.744C113.697 19.2213 112.997 18.96 112.157 18.96C111.28 18.96 110.552 19.2213 109.973 19.744C109.395 20.2667 109.068 21.032 108.993 22.04H115.097ZM127.225 18.316C127.822 17.364 128.588 16.608 129.521 16.048C130.473 15.488 131.5 15.208 132.601 15.208V20.332H131.229C129.96 20.332 128.97 20.6027 128.261 21.144C127.57 21.6853 127.225 22.6 127.225 23.888V31H122.437V15.376H127.225V18.316ZM141.829 26.324L145.217 15.376H150.313L144.769 31H138.833L133.289 15.376H138.385L141.829 26.324ZM167.137 22.768C167.137 23.16 167.09 23.5893 166.997 24.056H156.161C156.217 25.232 156.515 26.0813 157.057 26.604C157.598 27.108 158.289 27.36 159.129 27.36C159.838 27.36 160.426 27.1827 160.893 26.828C161.359 26.4733 161.667 26.016 161.817 25.456H166.885C166.679 26.5573 166.231 27.5467 165.541 28.424C164.85 29.2827 163.973 29.964 162.909 30.468C161.845 30.9533 160.659 31.196 159.353 31.196C157.822 31.196 156.459 30.8787 155.265 30.244C154.089 29.5907 153.165 28.6573 152.493 27.444C151.821 26.2307 151.485 24.812 151.485 23.188C151.485 21.5453 151.811 20.1267 152.465 18.932C153.137 17.7187 154.07 16.7947 155.265 16.16C156.459 15.5067 157.822 15.18 159.353 15.18C160.902 15.18 162.265 15.4973 163.441 16.132C164.617 16.7667 165.522 17.6627 166.157 18.82C166.81 19.9587 167.137 21.2747 167.137 22.768ZM162.293 22.04C162.311 21.0133 162.031 20.248 161.453 19.744C160.893 19.2213 160.193 18.96 159.353 18.96C158.475 18.96 157.747 19.2213 157.169 19.744C156.59 20.2667 156.263 21.032 156.189 22.04H162.293ZM173.748 26.212V31H168.792V26.212H173.748Z"
+                            fill="white" />
+                    </svg>
+                    <p class="text-base leading-loose text-gray-400">
+                        We host your empire business today using the latest technologies.
+                    </p>
+                    <div class="flex flex-row gap-x-3">
+                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="44" height="44" rx="22" fill="white" />
+                            <path
+                                d="M27 30.5H17C14 30.5 12 29 12 25.5V18.5C12 15 14 13.5 17 13.5H27C30 13.5 32 15 32 18.5V25.5C32 29 30 30.5 27 30.5Z"
+                                stroke="#640EF1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M27 19L23.87 21.5C22.84 22.32 21.15 22.32 20.12 21.5L17 19" stroke="#640EF1"
+                                stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="44" height="44" rx="22" fill="white" />
+                            <path
+                                d="M22 32C27.5228 32 32 27.5228 32 22C32 16.4772 27.5228 12 22 12C16.4772 12 12 16.4772 12 22C12 27.5228 16.4772 32 22 32Z"
+                                stroke="#640EF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18 13H19C17.05 18.84 17.05 25.16 19 31H18" stroke="#640EF1" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M25 13C26.95 18.84 26.95 25.16 25 31" stroke="#640EF1" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M13 26V25C18.84 26.95 25.16 26.95 31 25V26" stroke="#640EF1" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M13 19.0001C18.84 17.0501 25.16 17.0501 31 19.0001" stroke="#640EF1" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="44" height="44" rx="22" fill="white" />
+                            <path
+                                d="M31.97 28.33C31.97 28.69 31.89 29.06 31.72 29.42C31.55 29.78 31.33 30.12 31.04 30.44C30.55 30.98 30.01 31.37 29.4 31.62C28.8 31.87 28.15 32 27.45 32C26.43 32 25.34 31.76 24.19 31.27C23.04 30.78 21.89 30.12 20.75 29.29C19.6 28.45 18.51 27.52 17.47 26.49C16.44 25.45 15.51 24.36 14.68 23.22C13.86 22.08 13.2 20.94 12.72 19.81C12.24 18.67 12 17.58 12 16.54C12 15.86 12.12 15.21 12.36 14.61C12.6 14 12.98 13.44 13.51 12.94C14.15 12.31 14.85 12 15.59 12C15.87 12 16.15 12.06 16.4 12.18C16.66 12.3 16.89 12.48 17.07 12.74L19.39 16.01C19.57 16.26 19.7 16.49 19.79 16.71C19.88 16.92 19.93 17.13 19.93 17.32C19.93 17.56 19.86 17.8 19.72 18.03C19.59 18.26 19.4 18.5 19.16 18.74L18.4 19.53C18.29 19.64 18.24 19.77 18.24 19.93C18.24 20.01 18.25 20.08 18.27 20.16C18.3 20.24 18.33 20.3 18.35 20.36C18.53 20.69 18.84 21.12 19.28 21.64C19.73 22.16 20.21 22.69 20.73 23.22C21.27 23.75 21.79 24.24 22.32 24.69C22.84 25.13 23.27 25.43 23.61 25.61C23.66 25.63 23.72 25.66 23.79 25.69C23.87 25.72 23.95 25.73 24.04 25.73C24.21 25.73 24.34 25.67 24.45 25.56L25.21 24.81C25.46 24.56 25.7 24.37 25.93 24.25C26.16 24.11 26.39 24.04 26.64 24.04C26.83 24.04 27.03 24.08 27.25 24.17C27.47 24.26 27.7 24.39 27.95 24.56L31.26 26.91C31.52 27.09 31.7 27.3 31.81 27.55C31.91 27.8 31.97 28.05 31.97 28.33Z"
+                                stroke="#640EF1" stroke-width="2" stroke-miterlimit="10" />
+                        </svg>
+                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="44" height="44" rx="22" fill="white" />
+                            <path
+                                d="M32 25V19C32 14 30 12 25 12H19C14 12 12 14 12 19V25C12 30 14 32 19 32H25C30 32 32 30 32 25Z"
+                                stroke="#640EF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12.52 17.1101H31.48" stroke="#640EF1" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M18.52 12.1101V16.9701" stroke="#640EF1" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M25.48 12.1101V16.5201" stroke="#640EF1" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M19.75 24.4501V23.2501C19.75 21.7101 20.84 21.0801 22.17 21.8501L23.21 22.4501L24.25 23.0501C25.58 23.8201 25.58 25.0801 24.25 25.8501L23.21 26.4501L22.17 27.0501C20.84 27.8201 19.75 27.1901 19.75 25.6501V24.4501V24.4501Z"
+                                stroke="#640EF1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="sitemap flex flex-col gap-y-7">
+                    <h3 class="font-bold text-xl text-white">
+                        Products
+                    </h3>
+                    <ul class="flex flex-col gap-y-4">
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Powerful Reports
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Blockchain
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Auto-Backup
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Data Science
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Auto-Scaling Up
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sitemap flex flex-col gap-y-7">
+                    <h3 class="font-bold text-xl text-white">
+                        Resources
+                    </h3>
+                    <ul class="flex flex-col gap-y-4">
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Support 24/7
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Help Center
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                How-to Instructions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Blog & Tips
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                About Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sitemap flex flex-col gap-y-7">
+                    <h3 class="font-bold text-xl text-white">
+                        Company
+                    </h3>
+                    <ul class="flex flex-col gap-y-4">
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Privacy and Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Terms and Conditions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Investor Relations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Join With Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-base hover:text-[#EE964B] text-gray-400">
+                                Our Statistics
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="max-w-6xl mx-auto py-10 text-center">
+                <p class="text-base leading-loose text-gray-400">
+                    All Rights Reserved • Copyright Weserve by BuildWithAngga 2024 in Bandung
+                </p>
             </div>
         </section>
     </div>
